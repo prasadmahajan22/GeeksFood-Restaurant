@@ -1,0 +1,47 @@
+.body{
+    margin-top: 4rem;
+    padding: 2.5rem 2.5rem 1rem;
+}
+
+.body .inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .inputs input{
+    padding: 0.5rem;
+    border: none;
+    border: 1px solid rgba(191, 188, 188, 0.468);
+    border-radius: 5px;
+}
+
+.body .inputs #text{
+    width: 200px;
+}
+
+.body .inputs #number{
+    width: 50px;
+}
+
+.body .restaurants{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    justify-content: center;
+    row-gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.body .pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+@media (max-width : 450px) {
+    .body .inputs{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
